@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Tiwari | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="#">Harshit Tiwari</a>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-600">Skills</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-600">Experience</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+            <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600">About</a>
+            <a href="#skills" class="block py-2 text-gray-600 hover:text-blue-600">Skills</a>
+            <a href="#experience" class="block py-2 text-gray-600 hover:text-blue-600">Experience</a>
+            <a href="#projects" class="block py-2 text-gray-600 hover:text-blue-600">Projects</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-blue-600">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="home" class="flex flex-col-reverse md:flex-row items-center justify-center text-center md:text-left py-16">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Harshit Tiwari</h1>
+                <p class="mt-4 text-xl text-blue-600 font-semibold">Generative AI & Machine Learning Enthusiast</p>
+                <p class="mt-4 text-gray-600 max-w-lg">
+                    M.Tech student at IIT Kharagpur specializing in AI applications. Passionate about leveraging Machine Learning, Deep Learning, and Natural Language Processing to build intelligent and impactful solutions.
+                </p>
+                <div class="mt-8 flex justify-center md:justify-start space-x-4">
+                    <a href="https://www.linkedin.com/in/harshit-tiwari-846a1024b" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/></svg>
+                    </a>
+                    <a href="https://github.com/Harshit-Tiwari-29" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-600">
+                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center mb-10 md:mb-0">
+                <img src="I:\VS CODE\IMG-20250502-WA0011~2.jpg" alt="Harshit Tiwari" class="rounded-full w-64 h-64 md:w-80 md:h-80 object-cover shadow-lg">
+            </div>
+        </section>
+
+        <section id="about" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto">
+                <p class="text-gray-600 leading-relaxed">
+                    I am a Master's student in Agricultural Systems and Management at IIT Kharagpur, with a B.Tech in Agricultural Engineering. My academic journey has fostered a strong foundation in analytical problem-solving and technical systems.
+                    <br><br>
+                    My passion lies at the intersection of technology and data-driven insights. I am deeply interested in the fields of Machine Learning, Deep Learning, and Natural Language Processing (NLP). My recent internship as a <strong class="font-semibold">Generative AI Intern</strong> allowed me to design and build a multilingual chatbot using end-to-end RAG pipelines and contribute to an AI document scanner, significantly enhancing my practical skills. I am eager to apply my knowledge to solve real-world challenges and contribute to innovative projects.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Technical Skills</h2>
+            <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">Languages</h3>
+                    <p class="text-gray-600">Python, SQL</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">ML/DL</h3>
+                    <p class="text-gray-600">Scikit-learn, TensorFlow, NLTK, NumPy, Pandas</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">GenAI/NLP</h3>
+                    <p class="text-gray-600">LangChain, RAG, OCR, Feature Engineering</p>
+                </div>
+                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">Web & Viz</h3>
+                    <p class="text-gray-600">Flask, Streamlit, Matplotlib, Seaborn, Plotly</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">Core Concepts</h3>
+                    <p class="text-gray-600">Machine Learning, Deep Learning, Statistics, EDA</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">Tools</h3>
+                    <p class="text-gray-600">MySQL, GitHub, Google Colab, VS Code, Jupyter</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">Soft Skills</h3>
+                    <p class="text-gray-600">Problem Solving, Teamwork, Communication</p>
+                </div>
+                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <h3 class="font-semibold text-lg mb-2">Data Handling</h3>
+                    <p class="text-gray-600">Data Cleaning, Preprocessing, Normalization</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Internship Experience</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-md relative">
+                    <div class="absolute top-8 left-8 h-full border-l-2 border-blue-500"></div>
+                    <div class="relative pl-8">
+                        <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                        <p class="text-gray-500 text-sm">May 2025 - July 2025</p>
+                        <h3 class="text-xl font-bold mt-1">Generative AI Intern</h3>
+                        <p class="text-gray-700 font-semibold">Euphoria Infotech India Limited</p>
+                        <ul class="mt-4 list-disc list-inside text-gray-600 space-y-2">
+                            <li>Designed and built a multilingual query chatbot for legal and ed-tech domains, enabling conversational Q&A on complex PDF documents.</li>
+                            <li>Engineered the end-to-end RAG pipeline using LangChain, ChromaDB vectorstore, and history-aware retrieval.</li>
+                            <li>Contributed to an AI document scanner, improving alignment and reducing scan errors by 15% via page skew detection and OCR.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Impact of Soil Quality on Crop Growth Analysis</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Developed a data-driven crop recommendation system. Leveraged ML models like K-Nearest Neighbors and K-Means for accurate recommendations and visualized optimal conditions.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Pandas</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Scikit-learn</span>
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Image Classifier using CNN</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Developed a CNN classifier achieving 96% validation accuracy with data augmentation. Optimized using the Adam optimizer and deployed for real-time predictions.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">CNN</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">TensorFlow</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Email/SMS Spam Classifier</h3>
+                        <p class="text-gray-600 mb-4 text-sm">Built a text pipeline with tokenization and TF-IDF to train Naive Bayes, Logistic Regression, and KNN models, achieving 98% precision through optimization.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">Scikit-learn</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">NLTK</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">TF-IDF</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="py-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Education</h2>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-500 text-sm">2026</p>
+                    <h3 class="text-xl font-bold mt-1">Indian Institute of Technology Kharagpur</h3>
+                    <p class="text-gray-700 mt-2">M.Tech in Agricultural Systems and Management</p>
+                    <p class="text-gray-500 mt-1">CGPA: 8.34 / 10.0</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-500 text-sm">2023</p>
+                    <h3 class="text-xl font-bold mt-1">S.V.P.U.A.T, Meerut</h3>
+                    <p class="text-gray-700 mt-2">B.Tech in Agricultural Engineering</p>
+                    <p class="text-gray-500 mt-1">CGPA: 8.39 / 10.0</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-gray-800 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto mb-8">I'm currently looking for new opportunities and would be happy to connect. Feel free to send me an email or connect with me on social media.</p>
+                <a href="mailto:harshittiwari29.24@kgpian.iitkgp.ac.in" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                    Email Me
+                </a>
+                 <div class="mt-8 flex justify-center space-x-6">
+                    <a href="https://www.linkedin.com/in/harshit-tiwari-846a1024b" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/></svg>
+                    </a>
+                    <a href="https://github.com/Harshit-Tiwari-29" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-white">
+                         <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.492.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 text-center py-4">
+        <p>&copy; 2025 Harshit Tiwari. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
